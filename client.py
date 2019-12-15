@@ -119,7 +119,6 @@ if mode is "0":
 while True:
     if mode is "0":
         listen_mode(dest_ip, dest_port, my_port)
-        k = 0;
     elif mode is "1":
         user_mode(dest_ip, dest_port)
     else:
