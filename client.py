@@ -118,6 +118,7 @@ if mode is "0":
     my_port = int(sys.argv[4])
 while True:
     if mode is "0":
+        # listen mode
         listen_mode(dest_ip, dest_port, my_port)
     elif mode is "1":
         user_mode(dest_ip, dest_port)
